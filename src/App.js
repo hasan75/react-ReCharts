@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <MyLineChart></MyLineChart>
-      
+      <MyAreaChart></MyAreaChart>
     </div>
   );
 }

@@ -4,46 +4,46 @@ import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YA
 const MyAreaChart = () => {
     const data = [
         {
-          name: 'Page A',
-          uv: 4000,
-          pv: 2400,
-          amt: 2400,
+          name: 'Company A',
+          Mobile: 4000,
+          Computer: 2400,
+          Laptop: 2400,
         },
         {
-          name: 'Page B',
-          uv: 3000,
-          pv: 1398,
-          amt: 2210,
+          name: 'Company B',
+          Mobile: 3000,
+          Computer: 1398,
+          Laptop: 2210,
         },
         {
-          name: 'Page C',
-          uv: 2000,
-          pv: 9800,
-          amt: 2290,
+          name: 'Company C',
+          Mobile: 2000,
+          Computer: 9800,
+          Laptop: 2290,
         },
         {
-          name: 'Page D',
-          uv: 2780,
-          pv: 3908,
-          amt: 2000,
+          name: 'Company D',
+          Mobile: 2780,
+          Computer: 3908,
+          Laptop: 2000,
         },
         {
-          name: 'Page E',
-          uv: 1890,
-          pv: 4800,
-          amt: 2181,
+          name: 'Company E',
+          Mobile: 1890,
+          Computer: 4800,
+          Laptop: 2181,
         },
         {
-          name: 'Page F',
-          uv: 2390,
-          pv: 3800,
-          amt: 2500,
+          name: 'Company F',
+          Mobile: 2390,
+          Computer: 3800,
+          Laptop: 2500,
         },
         {
-          name: 'Page G',
-          uv: 3490,
-          pv: 4300,
-          amt: 2100,
+          name: 'Company G',
+          Mobile: 3490,
+          Computer: 4300,
+          Laptop: 2100,
         },
       ];
     return (
@@ -62,9 +62,9 @@ const MyAreaChart = () => {
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Area type="monotone" dataKey="uv" stackId="1" stroke="#8884d8" fill="#8884d8" />
-          <Area type="monotone" dataKey="pv" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-          <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
+          <Area type="monotone" dataKey="Mobile" stackId="1" stroke="#8884d8" fill="#8884d8" />
+          <Area type="monotone" dataKey="Computer" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+          <Area type="monotone" dataKey="Laptop" stackId="1" stroke="#ffc658" fill="#ffc658" />
         </AreaChart>
     );
 };
